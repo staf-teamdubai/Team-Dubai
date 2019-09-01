@@ -67,7 +67,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    background: #ff5722;
+    background: #1d1310;
     transition: 0.2s ease
 }
 
@@ -122,10 +122,39 @@ button.social {
     background: #32408e;
 }
 
+button[class="social facebook"]:hover,
+button[class="social facebook"]:focus {
+    background: #24262e;
+    transition: 0.2s ease
+}
+
 .twitter {
     background: #55acee;
 }
 
+button[class="social twitter"]:hover,
+button[class="social twitter"]:focus {
+    background: #2c3236;
+    transition: 0.2s ease
+}
+
 .gmail {
     background: #dd4b39;
+}
+
+button[class="social gmail"]:hover,
+button[class="social gmail"]:focus {
+    background: #312422;
+    transition: 0.2s ease
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(46, 87, 65);
+    color: white;
+    text-align: left;
 }
